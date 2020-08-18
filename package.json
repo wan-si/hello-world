@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wan-si/hello-world/issues"
   },
-  "homepage": "https://github.com/wan-si/hello-world#readme"
+  "homepage": "https://github.com/wan-si/hello-world#readme",
+  "devDependencies": {
+    "cypress": "^4.12.1"
+  }
 }
