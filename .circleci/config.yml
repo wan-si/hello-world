@@ -8,7 +8,7 @@ jobs:
         environment:
           ## this enables colors in the output
           TERM: xterm
-    working_directory: ~/app
+    working_directory: ~/hello-world
     parallelism: 1
     steps:
       - checkout
@@ -25,7 +25,7 @@ jobs:
             - ~/.cache
       - run:
           name: Running E2E tests with JUnit reporter
-          command: cypress/run
+          command: cypress run
       - store_test_results:
           path: junit-results
       - store_artifacts:
