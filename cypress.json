@@ -1,3 +1,5 @@
 {
-    "projectId": "helloworldID"
+    "projectId": "helloworldID",
+    "record_key":"helloword-key-first"
+
 }
